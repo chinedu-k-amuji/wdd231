@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="WDD231 Course Home Page">
+    <meta name="author" content="Chinedu Kingsley Amuji">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 Course Home</title>
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Profile Picture">
+        <span>Chinedu Kingsley Amuji</span>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Chamber</a></li>
+            <li><a href="#">Final</a></li>
+            <li><a href="#">GitHub Profile</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About the Course</h2>
+            <p>Welcome to WDD231! This course focuses on web development.</p>
+        </section>
+        <section>
+            <h2>Course List</h2>
+            <div id="courses"></div>
+            <button onclick="filterCourses('all')">All Courses</button>
+            <button onclick="filterCourses('WDD')">WDD Courses</button>
+            <button onclick="filterCourses('CSE')">CSE Courses</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Chinedu Kingsley Amuji, Nigeria</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
