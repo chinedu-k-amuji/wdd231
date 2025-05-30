@@ -2,20 +2,48 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+    color: #333; /* Fixed color contrast */
 }
 
 header {
     display: flex;
     align-items: center;
-    background-color: #333;
+    background-color: #004080;
     color: white;
     padding: 10px;
+    justify-content: center;
+    font-size: 24px;
 }
+
+main p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+main img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 25px;
+    justify-content: center;
+}
+
+img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 25px;
+}    
 
 nav ul {
     list-style: none;
     padding: 0;
     text-align: center;
+    display: none;
+}
+
+nav ul.open {
+    display: block;
 }
 
 nav ul li {
@@ -30,20 +58,60 @@ nav ul li a {
     padding: 5px 10px;
     border-radius: 5px;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
+ main h1{
+    margin-left: 12px;
+    margin-bottom: 0;
+ }
+.cardarea{
+    display: flex;
+    padding: 0px 12px;
+    justify-content: space-between;
+}
+.card1 {
+    background-color: rgb(226, 214, 214);
+    width: 60%;
+    height: 45vh;
 }
 
+.card1 h1 {
+  color: #f9f9f9;
+}
+
+.card2 h1 {
+  color: #f9f9f9;
+}
+
+ .cardarea h1{
+    background-color: #004080;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.card2{
+    background-color: rgb(148, 147, 156);
+    width: 35%;
+    height: 45vh;
+}
+.card2 img{
+    width: 200px;
+    height: 200px;
+}
+.coursearea{
+    padding: 10px
+}
+.coursearea h2{
+    background-color: #004080;
+    color: #fff;
+    text-align: center;
+    margin-bottom:  0%;
+    padding: 10px
+}
 .course-card {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #fff; /* Improved contrast */
 }
 
 .completed {
@@ -54,4 +122,11 @@ footer {
 .not-completed {
     color: red;
     font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
 }

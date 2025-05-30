@@ -1,9 +1,3 @@
-document.addEventListener("DOMContentLoaded", function() {
-    const navToggle = document.createElement("button");
-    navToggle.textContent = "☰";
-    document.querySelector("nav").prepend(navToggle);
-
-    navToggle.addEventListener("click", function() {
-        document.querySelector("nav ul").classList.toggle("open");
-    });
+document.getElementById("menuToggle").addEventListener("click", function() {
+    document.getElementById("menu").classList.toggle("open");
 });

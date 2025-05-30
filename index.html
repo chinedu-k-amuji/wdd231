@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD231 Course Home</title>
     <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/large.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/course.js" defer></script>
@@ -18,7 +18,8 @@
         <span>Chinedu Kingsley Amuji</span>
     </header>
     <nav>
-        <ul>
+        <button id="menuToggle">☰</button>
+        <ul id="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Chamber</a></li>
             <li><a href="#">Final</a></li>
@@ -28,18 +29,28 @@
     </nav>
     <main>
         <h1>Home</h1>
-        <section>
-            <h2>About the Course</h2>
-            <p>Welcome to WDD231! This course focuses on web development.</p>
+         <section class="cardarea">
+          <section class="card1">
+            <h1>Course Work</h1>
+        
+          </section>
+          <section class="card2">
+            <h1>Enugu, Nigeria</h1>
+            <img src="images/enugu-hero-logo.jpg" alt="Profile Picture">
+            
+           
+          </section>
         </section>
-        <section>
-            <h2>Course List</h2>
+        <section class="coursearea">
+            <h2>Web and Computer Programming Certificate</h2>
+            
             <div id="courses"></div>
-            <button onclick="filterCourses('all')">All Courses</button>
-            <button onclick="filterCourses('WDD')">WDD Courses</button>
-            <button onclick="filterCourses('CSE')">CSE Courses</button>
+            <button id="btnAll">All Courses</button>
+            <button id="btnWDD">WDD Courses</button>
+            <button id="btnCSE">CSE Courses</button>
+            <p id="totalCredits">Total Credits: 0</p>
         </section>
-    </main>
+    </main> 
     <footer>
         <p>&copy; <span id="currentyear"></span> Chinedu Kingsley Amuji, Nigeria</p>
         <p id="lastModified"></p>
