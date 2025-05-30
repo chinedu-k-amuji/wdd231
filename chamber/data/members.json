@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Nedu Phone Accessories Ltd",
+        "address": "AB 138 Plaza, Alaba International Market, Lagos, Nigeria",
+        "phone": "+234 806 025 4895",
+        "website": "https://chinedu-k-amuji.github.io/wdd131/project/index.html", 
+        "image": "images2/Nedupal-logo.jpg",
+        "membership": 3
+        
+    },
+    {
+        "name": "Global Enterprises",
+        "address": "10 Corporate Ave, Lagos, Nigeria",
+        "phone": "+234 901 234 5678",
+        "website": "https://globalenterprises.com",
+        "image": "images2/airpod-pro.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Innovative Tech Ltd",
+        "address": "20 Innovation Way, Lagos, Nigeria",
+        "phone": "+234 903 876 5432",
+        "website": "https://innovativetech.com",
+        "image": "images2/fsudz-earpiece-girl.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Tech Solutions",
+        "address": "123 Main St, Lagos, Nigeria",
+        "phone": "+234 810 123 4567",
+        "website": "https://techsolutions.com",
+        "image": "images2/headset.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Smart Marketing",
+        "address": "45 Business Rd, Lagos",
+        "phone": "+234 802 987 6543",
+        "website": "https://smartmarketing.com",
+        "image": "images2/realme-data-cable.jpg",
+        "membership": 2
+    },
+    {
+        "name": "Green Energy Inc",
+        "address": "88 Solar St, Lagos, Nigeria",
+        "phone": "+234 701 456 7890",
+        "website": "https://greenenergy.com",
+        "image": "images2/fsudz-smartwatch.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Ada cakes",
+        "address": "106 Yia Jinadu Street, Lagos, Nigeria",
+        "phone": "+234 704 086 9564",
+        "website": "https://adacakes.com",
+        "image": "images2/pro11.jpg",
+        "membership": 1
+    },
+    {
+        "name": "Crownny Cee Clothings",
+        "address": "48 Linus Street, Lagos, Nigeria",
+        "phone": "+234 703 328 8001",
+        "website": "https://crownnyceeclothings.com",
+        "image": "images2/recrsi-earpiece.jpg",
+        "membership": 3
+    },
+    {
+        "name": "Mama Nkechi Eatries",
+        "address": "Amuji's Compoound, Lagos, Nigeria",
+        "phone": "+234 806 492 8703",
+        "website": "https://mamankechieateries.com",
+        "image": "images2/nedupal-shop2.jpg",
+        "membership": 3
+    }
+]

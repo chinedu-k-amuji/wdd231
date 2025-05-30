@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.grid .member-card {
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+img {
+    width: 100px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.list .member-card {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+/*footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004080;
+    color: white;
+} */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.address {
+    flex: 1;
+    text-align: left;
+}
+
+.social-icons {
+    flex: 1;
+    text-align: center;
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+}
+
+.social-icons img {
+    width: 30px; /* Adjust size as needed */
+    margin: 0 10px;
+}
