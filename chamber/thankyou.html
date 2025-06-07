@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles3.css">
+    <script src="scripts/join.js" defer></script>
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="images2/favicon.jpg">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Thank You for Your Membership Application!</h1>
+    </header>
+
+    <main>
+        <p>Dear <span id="first-name"></span> <span id="last-name"></span>,</p>
+        <p>We appreciate your interest in joining the Chamber of Commerce.</p>
+        <p>Your application has been received. Below are your details:</p>
+
+        <ul>
+            <li><strong>Email:</strong> <span id="email"></span></li>
+            <li><strong>Mobile Phone:</strong> <span id="phone"></span></li>
+            <li><strong>Business Name:</strong> <span id="organization"></span></li>
+            <li><strong>Submitted on:</strong> <span id="timestamp"></span></li>
+        </ul>
+
+        <p>We will contact you soon regarding your membership status.</p>
+        <p><a href="index.html">Return to Home Page</a></p>
+    </main>
+
+    <footer>
+        <p class="address">Amuji's Compound, Ama-ofulu village, Akpakwume, Enugu, Nigeria</p>
+
+       <div class="social-icons">
+           <a href="https://facebook.com" target="_blank"><img src="images2/facebooklogo1.webp" alt="Facebook"></a>
+           <a href="https://x.com" target="_blank"><img src="images2/xlogo.jpeg" alt="X"></a>
+           <a href="https://linkedin.com" target="_blank"><img src="images2/linkedin-logo.webp" alt="LinkedIn"></a>
+       </div>
+
+       <p class="date">&copy; <span id="currentYear"></span> Chinedu Kingsley Amuji | WDD 231 | </p>
+       <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // Get URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        document.getElementById("first-name").textContent = urlParams.get("first-name") || "N/A";
+        document.getElementById("last-name").textContent = urlParams.get("last-name") || "N/A";
+        document.getElementById("email").textContent = urlParams.get("email") || "N/A";
+        document.getElementById("phone").textContent = urlParams.get("phone") || "N/A";
+        document.getElementById("organization").textContent = urlParams.get("organization") || "N/A";
+        document.getElementById("timestamp").textContent = urlParams.get("timestamp") || "N/A";
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Akpakwume Chamber of Commerce Membership Application. Join us to foster business growth and community development.">
+    <meta name="author" content="Chinedu Kingsley Amuji">
+    <title>Join Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles3.css">
+    <script src="scripts/join.js" defer></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="images2/favicon.jpg">
+    
+</head>
+<body>
+
+    <header>
+        <h1>Chamber of Commerce Membership Application</h1>
+        <nav>
+            <!-- Navigation links go here -->
+        </nav>
+    </header>
+
+    <main>
+        <form action="thankyou.html" method="get">
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" title="First Name" autocomplete="given-name" required>
+
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" title="Last Name" autocomplete="family-name" required>
+
+            <label for="organization-title">Organizational Title:</label>
+            <input type="text" id="organization-title" name="organization-title" title="Organization Title" autocomplete="organization-title" pattern="[A-Za-z-\s]{7,}">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" title="Email Address" autocomplete="email" placeholder="example@example.com" required>
+
+            <label for="phone">Mobile Phone Number:</label>
+            <input type="tel" id="phone" name="phone" title="Phone Number" autocomplete="tel" required>
+
+            <label for="organization">Business/Organization Name:</label>
+            <input type="text" id="organization" name="organization" title="Organization Name" autocomplete="organization" required>
+
+            <label for="membership">Membership Level:</label>
+            <select id="membership" name="membership">
+                <option value="NP">NP Membership (Non-Profit)</option>
+                <option value="Bronze">Bronze Membership</option>
+                <option value="Silver">Silver Membership</option>
+                <option value="Gold">Gold Membership</option>
+            </select>
+
+            <label for="description">Business Description:</label>
+            <textarea id="description" name="description" title="Business Description"></textarea>
+
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <!-- NP Membership Modal -->
+<div id="np-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('np-modal')">&times;</span>
+        <h2>NP Membership Benefits</h2>
+        <p>Non-Profit Membership grants access to networking events, community resources, and exclusive chamber updates.</p>
+    </div>
+</div>
+
+<!-- Bronze Membership Modal -->
+<div id="bronze-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('bronze-modal')">&times;</span>
+        <h2>Bronze Membership Benefits</h2>
+        <p>Enjoy event discounts, training sessions, and featured business promotions.</p>
+    </div>
+</div>
+
+<!-- Silver Membership Modal -->
+<div id="silver-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('silver-modal')">&times;</span>
+        <h2>Silver Membership Benefits</h2>
+        <p>Get priority event invitations, advertising slots, and business spotlights.</p>
+    </div>
+</div>
+
+<!-- Gold Membership Modal -->
+<div id="gold-modal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('gold-modal')">&times;</span>
+        <h2>Gold Membership Benefits</h2>
+        <p>Gain premium advertising, VIP event access, and full business mentorship perks.</p>
+    </div>
+</div>
+
+<style>
+    /* Modal Styling */
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+    }
+    .modal-content {
+        background-color: white;
+        margin: 10% auto;
+        padding: 20px;
+        width: 50%;
+        text-align: center;
+        border-radius: 8px;
+    }
+    .close {
+        color: red;
+        float: right;
+        font-size: 24px;
+        cursor: pointer;
+    }
+</style>
+
+<script>
+    function closeModal(modalId) {
+        document.getElementById(modalId).style.display = "none";
+    }
+</script>
+
+        <!-- Membership Level Cards -->
+        <section class="membership-cards">
+            <div class="card">
+                <h2>NP Membership</h2>
+                <p>No fee for non-profit organizations.</p>
+                <a href="#" onclick="openModal('np-modal')">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Bronze Membership</h2>
+                <p>Basic benefits included.</p>
+                <a href="#" onclick="openModal('bronze-modal')">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Silver Membership</h2>
+                <p>Additional benefits and discounts.</p>
+                <a href="#" onclick="openModal('silver-modal')">Learn More</a>
+            </div>
+
+            <div class="card">
+                <h2>Gold Membership</h2>
+                <p>Premium benefits and advertising perks.</p>
+                <a href="#" onclick="openModal('gold-modal')">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="address">Amuji's Compound, Ama-ofulu village, Akpakwume, Enugu, Nigeria</p>
+
+       <div class="social-icons">
+           <a href="https://facebook.com" target="_blank"><img src="images2/facebooklogo1.webp" alt="Facebook"></a>
+           <a href="https://x.com" target="_blank"><img src="images2/xlogo.jpeg" alt="X"></a>
+           <a href="https://linkedin.com" target="_blank"><img src="images2/linkedin-logo.webp" alt="LinkedIn"></a>
+       </div>
+
+       <p class="date">&copy; <span id="currentYear"></span> Chinedu Kingsley Amuji | WDD 231 | </p>
+       <p id="lastModified"></p>
+    </footer>
+
+    <script>
+        // Function to set timestamp
+        document.getElementById("timestamp").value = new Date().toISOString();
+
+        function openModal(modalId) {
+            document.getElementById(modalId).style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
