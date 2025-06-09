@@ -150,3 +150,66 @@ footer {
     margin: 0 10px;
 }
 
+/*  cards part */
+.cards {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    gap: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "image"
+    "description"
+    "address"
+    "cost"
+}   
+.cards name {
+    grid-area: name;
+   
+/*    gap: 20px; */
+}
+
+.cards img {
+    width: 70%;
+    /*transition: transform 0.3s ease-in-out; */
+}
+
+.cards description {
+    grid-area: description;
+}
+
+.cards address {
+    grid-area: address;
+}
+
+/* Hover effect (only for larger screens) */
+@media (min-width: 641px) {
+    .cards img:hover {
+        transform: scale(1.1);
+    }
+}
+
+/* Grid areas for responsiveness */
+@media (max-width: 640px) {
+    .cards {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1025px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}  
+/* end of cards part */

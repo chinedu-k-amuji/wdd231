@@ -1,0 +1,74 @@
+{
+  "places": [
+    {
+      "name": "Awhum Waterfall & Cave",
+      "address": "Amaugwe village, Awhum town, Udi Local Government Area, Enugu State, Nigeria",
+      "cost": "Entry fee required (varies)",
+      "description": "A stunning 30-meter-high waterfall flowing from a granite rock, known for its warm waters and spiritual significance.",
+      "image": "images2/awhum-waterfall-enugu2.webp"
+    },
+    {
+      "name": "Ngwo Pine Forest & Cave",
+      "address": "Ngwo-Asaa 400102, Enugu, Nigeria",
+      "cost": "Free entry",
+      "description": "A serene pine forest with a limestone cave and a waterfall. The cave is considered sacred by the Igbo people.",
+      "image": "images2/Ngwo-pine-forest.webp"
+    },
+    {
+      "name": "Nike Lake Resort",
+      "address": "Nike Lake Road, Abakpa Nike, P.M.B, Enugu, Enugu, 400103",
+      "cost": "Accommodation rates vary",
+      "description": "A tranquil resort on the banks of Nike Lake, offering breathtaking views, boating, and relaxation.",
+      "image": "images2/nike-lake-resort.webp"
+    },
+    {
+      "name": "National Museum of Unity",
+      "address": "65 Abakaliki Road, GRA, Enugu, Nigeria",
+      "cost": "Entry fee required (varies)",
+      "description": "A museum showcasing Nigeria’s cultural heritage, with artifacts and exhibitions that highlight unity in diversity.",
+      "image": "images2/nike-lake-resort-complex.webp"
+    },
+    {
+      "name": "Enugu Golf Course",
+      "address": "11 Park Ln, GRA, Enugu 400102, Enugu, Nigeria",
+      "cost": "Entry fees vary",
+      "description": "A well-maintained 18-hole golf course offering a scenic view of the Udi Hills.",
+      "image": "images2/enugu-golf1.webp"
+    },
+    {
+      "name": "Polo Park Mall",
+      "address": "Abakaliki Rd, Enugu, Enugu, 400102",
+      "cost": "Free entry; shopping costs vary",
+      "description": "A modern shopping mall with a variety of stores, restaurants, and entertainment options.",
+      "image": "images2/nike-lake-resort-swimming-pool.webp"
+    },
+    {
+      "name": "Enugu Literary Society",
+      "address": "22 Upper North Road 10 Trans Ekulu, Enugu, Enugu",
+      "cost": "Free entry for most events",
+      "description": "A hub for literary activities, book readings, and discussions promoting Igbo culture and literature.",
+      "image": "images2/nike-lake-resort-gym.webp"
+    },
+    {
+      "name": "Centre for Memories",
+      "address": "2 Awgu Street, Off Umuoji Street, Independence Layout, Enugu, Enugu State, Nigeria",
+      "cost": "Entry fee required (varies)",
+      "description": "A museum dedicated to preserving Igbo history and culture, featuring exhibitions and documentaries.",
+      "image": "images2/Enugu-international-airport.webp"
+    },
+    {
+      "name": "Milken Hills",
+      "address": "Enugu, Nigeria",
+      "cost": "Free entry",
+      "description": "A scenic hill offering panoramic views of Enugu city, perfect for sightseeing and photography.",
+      "image": "images2/enugu-milkenhill.webp"
+    },
+    {
+      "name": "Ezeagu Tourist Complex",
+      "address": "Ezeagu, Enugu State, Nigeria",
+      "cost": "Entry fee required (varies)",
+      "description": "A natural wonder featuring a lake, a cave, and a waterfall with interconnected tunnels and chambers.",
+      "image": "images2/Ezeagu-tourist-complex.jpg"
+    }
+  ]
+}
