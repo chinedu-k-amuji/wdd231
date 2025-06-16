@@ -1,0 +1,204 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #004080;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: 1px solid #004080;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #004080;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Team Section in About Page */
+#team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#team-list li {
+    width: 250px;
+    text-align: center;
+    background: #004080;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+/* Responsive Navigation */
+@media (max-width: 768px) {
+    #nav-links {
+        display: none;
+        flex-direction: column;
+    }
+
+    #menu-toggle {
+        display: block;
+    }
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.address {
+    flex: 1;
+    text-align: left;
+}
+
+.video-link {
+    flex: 1;
+    text-align: center;
+    color: white; /* Ensures text color is white */
+}
+
+.video-link a {
+    color: white; /* Ensures the link color stays white */
+    text-decoration: none;
+}
+
+.video-link a:hover {
+    text-decoration: underline; /* Adds underline effect on hover */
+}
+
+.social-icons {
+    flex: 1;
+    text-align: center;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+.date {
+    flex: 2;
+    text-align: right;
+}
+
+/*
+#lastModified {
+    text-align: right;
+    font-size: 0.9em;
+    color: white; /* Keeps last modified text consistent 
+} */
+/*
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004080;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.address {
+    flex: 1;
+    text-align: left;
+}
+
+.social-icons {
+    flex: 1;
+    text-align: center;
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+}
+/*
+.hero {
+    position: relative;
+    text-align: center;
+} */
+
+.hero img {
+    width: 100%;
+}
+
+#latest-trends {
+    display: flex;
+    flex-direction: row; /* Aligns images in a horizontal line */
+    justify-content: center; /* Centers images within the section */
+    align-items: center; /* Aligns images vertically */
+    gap: 15px; /* Adds spacing between images */
+}
+
+#latest-trends img {
+    width: 350px; /* Ensures uniform image size */
+    height: 250px;
+    object-fit: cover;
+}
