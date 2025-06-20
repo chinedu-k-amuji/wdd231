@@ -28,13 +28,7 @@
       "description": "A museum showcasing Nigeria’s cultural heritage, with artifacts and exhibitions that highlight unity in diversity.",
       "image": "images2/nike-lake-resort-complex.webp"
     },
-    {
-      "name": "Enugu Golf Course",
-      "address": "11 Park Ln, GRA, Enugu 400102, Enugu, Nigeria",
-      "cost": "Entry fees vary",
-      "description": "A well-maintained 18-hole golf course offering a scenic view of the Udi Hills.",
-      "image": "images2/enugu-golf1.webp"
-    },
+    
     {
       "name": "Polo Park Mall",
       "address": "Abakaliki Rd, Enugu, Enugu, 400102",
@@ -56,13 +50,7 @@
       "description": "A museum dedicated to preserving Igbo history and culture, featuring exhibitions and documentaries.",
       "image": "images2/Enugu-international-airport.webp"
     },
-    {
-      "name": "Milken Hills",
-      "address": "Enugu, Nigeria",
-      "cost": "Free entry",
-      "description": "A scenic hill offering panoramic views of Enugu city, perfect for sightseeing and photography.",
-      "image": "images2/enugu-milkenhill.webp"
-    },
+    
     {
       "name": "Ezeagu Tourist Complex",
       "address": "Ezeagu, Enugu State, Nigeria",

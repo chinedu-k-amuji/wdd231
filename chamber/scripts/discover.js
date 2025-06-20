@@ -43,3 +43,13 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Error fetching the JSON data:", error));
 });
+
+// Responsive navigation toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleBtn = document.querySelector('.menu-toggle');
+  const navList = document.querySelector('nav ul');
+
+  toggleBtn.addEventListener('click', () => {
+    navList.classList.toggle('active');
+  });
+});
